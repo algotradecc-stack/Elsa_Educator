@@ -7,7 +7,7 @@ const scenes = [
         "when": "At night time!",
         "why": "To find the truth!",
         "tag": "Elsa and the Water Nokk riding the magic water horse",
-        "image": "assets/scene_0.png"
+        "image": "scene_0.png"
     },
     {
         "emoji": "\ud83d\udc69\ud83c\udffb\u26c4\ud83c\udf42",
@@ -17,7 +17,7 @@ const scenes = [
         "when": "In the morning!",
         "why": "Because they are exploring!",
         "tag": "Anna and Olaf walking and playing",
-        "image": "assets/scene_1.png"
+        "image": "scene_1.png"
     },
     {
         "emoji": "\ud83d\udc71\u200d\u2642\ufe0f\ud83e\udd8c\ud83c\udf32",
@@ -27,7 +27,7 @@ const scenes = [
         "when": "In the evening!",
         "why": "Because Kristoff feels sad!",
         "tag": "Kristoff and Sven singing a song",
-        "image": "assets/scene_2.png"
+        "image": "scene_2.png"
     },
     {
         "emoji": "\ud83d\udc78\ud83c\udffc\ud83e\udd8e\ud83d\udd25",
@@ -37,7 +37,7 @@ const scenes = [
         "when": "In the afternoon!",
         "why": "To calm the fire spirit!",
         "tag": "Elsa and Bruni making ice magic",
-        "image": "assets/scene_3.png"
+        "image": "scene_3.png"
     },
     {
         "emoji": "\ud83d\udc78\ud83c\udffc\ud83d\udc69\ud83c\udffb\ud83c\udff0",
@@ -47,7 +47,7 @@ const scenes = [
         "when": "In the morning!",
         "why": "To let the people in!",
         "tag": "Elsa and Anna opening the gates",
-        "image": "assets/scene_4.png"
+        "image": "scene_4.png"
     },
     {
         "emoji": "\u26c4\ud83c\udf43\ud83c\udf42",
@@ -57,7 +57,7 @@ const scenes = [
         "when": "In the afternoon!",
         "why": "Because the wind is playing!",
         "tag": "Olaf and Gale flying in the wind",
-        "image": "assets/scene_5.png"
+        "image": "scene_5.png"
     },
     {
         "emoji": "\ud83e\udea8\ud83c\udf32\ud83c\udf33",
@@ -67,7 +67,7 @@ const scenes = [
         "when": "At night time!",
         "why": "Because they are tired!",
         "tag": "The Earth Giants sleeping by the river",
-        "image": "assets/scene_6.png"
+        "image": "scene_6.png"
     },
     {
         "emoji": "\ud83d\udc82\u200d\u2642\ufe0f\ud83d\udee1\ufe0f\ud83c\udf32",
@@ -77,7 +77,7 @@ const scenes = [
         "when": "In the daytime!",
         "why": "To protect his people!",
         "tag": "Lieutenant Mattias guarding the forest",
-        "image": "assets/scene_7.png"
+        "image": "scene_7.png"
     },
     {
         "emoji": "\ud83d\udc51\ud83d\udc78\ud83c\udffc\ud83d\udecf\ufe0f",
@@ -87,7 +87,7 @@ const scenes = [
         "when": "At bedtime!",
         "why": "To help Elsa sleep!",
         "tag": "Queen Iduna and little Elsa singing a lullaby",
-        "image": "assets/scene_8.png"
+        "image": "scene_8.png"
     },
     {
         "emoji": "\ud83e\uddcc\ud83d\udd2e\u26f0\ufe0f",
@@ -97,7 +97,7 @@ const scenes = [
         "when": "At night time!",
         "why": "To warn the sisters!",
         "tag": "Grand Pabbie showing magic visions",
-        "image": "assets/scene_9.png"
+        "image": "scene_9.png"
     },
     {
         "emoji": "\ud83d\udc78\ud83c\udffc\u2744\ufe0f\ud83c\udfd4\ufe0f",
@@ -107,7 +107,7 @@ const scenes = [
         "when": "At sunrise!",
         "why": "To be free!",
         "tag": "Elsa building an ice palace",
-        "image": "assets/scene_10.png"
+        "image": "scene_10.png"
     },
     {
         "emoji": "\ud83d\udc69\ud83c\udffb\ud83d\udc71\u200d\u2642\ufe0f\ud83d\udef6",
@@ -117,7 +117,7 @@ const scenes = [
         "when": "In the daytime!",
         "why": "To find Elsa!",
         "tag": "Anna and Kristoff riding in a boat",
-        "image": "assets/scene_11.png"
+        "image": "scene_11.png"
     },
     {
         "emoji": "\ud83e\udd8c\ud83e\udd55\u2744\ufe0f",
@@ -127,7 +127,7 @@ const scenes = [
         "when": "In the morning!",
         "why": "Because he is hungry!",
         "tag": "Sven eating a crunchy carrot",
-        "image": "assets/scene_12.png"
+        "image": "scene_12.png"
     },
     {
         "emoji": "\ud83d\uded6\ud83e\udde4\ud83e\udde3",
@@ -137,7 +137,7 @@ const scenes = [
         "when": "In the afternoon!",
         "why": "To help travelers!",
         "tag": "Oaken selling winter clothes",
-        "image": "assets/scene_13.png"
+        "image": "scene_13.png"
     },
     {
         "emoji": "\u26c4\ud83c\udf3b\u2600\ufe0f",
@@ -147,7 +147,7 @@ const scenes = [
         "when": "In the hot daytime!",
         "why": "Because he loves the sun!",
         "tag": "Olaf singing about summer",
-        "image": "assets/scene_14.png"
+        "image": "scene_14.png"
     },
     {
         "emoji": "\ud83d\udc78\ud83c\udffc\u2744\ufe0f\ud83c\udf0a",
@@ -157,7 +157,7 @@ const scenes = [
         "when": "At stormy night!",
         "why": "To cross the sea!",
         "tag": "Elsa freezing the big waves",
-        "image": "assets/scene_15.png"
+        "image": "scene_15.png"
     },
     {
         "emoji": "\ud83d\udc69\ud83c\udffb\ud83e\udea8\ud83c\udfc3\u200d\u2640\ufe0f",
@@ -167,7 +167,7 @@ const scenes = [
         "when": "In the morning!",
         "why": "To break the dam!",
         "tag": "Anna running away from giants",
-        "image": "assets/scene_16.png"
+        "image": "scene_16.png"
     },
     {
         "emoji": "\ud83d\udc71\u200d\u2642\ufe0f\ud83d\udc8d\ud83e\udd8c",
@@ -177,7 +177,7 @@ const scenes = [
         "when": "At sunset!",
         "why": "To marry Anna!",
         "tag": "Kristoff holding a shiny ring",
-        "image": "assets/scene_17.png"
+        "image": "scene_17.png"
     },
     {
         "emoji": "\ud83e\udd8e\u2744\ufe0f\ud83d\udc45",
@@ -187,7 +187,7 @@ const scenes = [
         "when": "In the winter morning!",
         "why": "Because it tastes yummy!",
         "tag": "Bruni catching snowflakes",
-        "image": "assets/scene_18.png"
+        "image": "scene_18.png"
     },
     {
         "emoji": "\ud83d\udc78\ud83c\udffc\ud83c\udfa4\ud83c\udfd4\ufe0f",
@@ -197,7 +197,7 @@ const scenes = [
         "when": "At midnight!",
         "why": "Because she hears a voice!",
         "tag": "Elsa singing loudly",
-        "image": "assets/scene_19.png"
+        "image": "scene_19.png"
     },
     {
         "emoji": "\ud83d\udc69\ud83c\udffb\ud83d\udc0e\ud83c\udf32",
@@ -207,7 +207,7 @@ const scenes = [
         "when": "In the daytime!",
         "why": "To catch up with Elsa!",
         "tag": "Anna riding a fast horse",
-        "image": "assets/scene_20.png"
+        "image": "scene_20.png"
     },
     {
         "emoji": "\u26c4\ud83d\udcda\ud83e\udd13",
@@ -217,7 +217,7 @@ const scenes = [
         "when": "In the afternoon!",
         "why": "To learn new things!",
         "tag": "Olaf reading a big book",
-        "image": "assets/scene_21.png"
+        "image": "scene_21.png"
     },
     {
         "emoji": "\ud83d\udc78\ud83c\udffc\ud83d\udc57\u2744\ufe0f",
@@ -227,7 +227,7 @@ const scenes = [
         "when": "At sunrise!",
         "why": "Because she feels happy!",
         "tag": "Elsa making a new ice dress",
-        "image": "assets/scene_22.png"
+        "image": "scene_22.png"
     },
     {
         "emoji": "\ud83d\udc71\u200d\u2642\ufe0f\ud83e\ude95\ud83c\udfb6",
@@ -237,7 +237,7 @@ const scenes = [
         "when": "At night time!",
         "why": "To entertain Sven!",
         "tag": "Kristoff playing his guitar",
-        "image": "assets/scene_23.png"
+        "image": "scene_23.png"
     },
     {
         "emoji": "\ud83e\udd8c\ud83d\udc45\ud83e\uddca",
@@ -247,7 +247,7 @@ const scenes = [
         "when": "In the cold morning!",
         "why": "Because he is silly!",
         "tag": "Sven licking a cold icicle",
-        "image": "assets/scene_24.png"
+        "image": "scene_24.png"
     },
     {
         "emoji": "\ud83d\udc82\u200d\u2642\ufe0f\ud83c\udf42\ud83c\udfd5\ufe0f",
@@ -257,7 +257,7 @@ const scenes = [
         "when": "At night time!",
         "why": "To stay warm!",
         "tag": "Mattias and soldiers sitting by the fire",
-        "image": "assets/scene_25.png"
+        "image": "scene_25.png"
     },
     {
         "emoji": "\ud83d\udc78\ud83c\udffc\ud83d\udc69\ud83c\udffb\ud83e\udd1d",
@@ -267,7 +267,7 @@ const scenes = [
         "when": "In the sunny morning!",
         "why": "Because they love each other!",
         "tag": "Elsa and Anna holding hands",
-        "image": "assets/scene_26.png"
+        "image": "scene_26.png"
     },
     {
         "emoji": "\ud83e\uddcc\ud83c\udf3f\ud83c\udf44",
@@ -277,7 +277,7 @@ const scenes = [
         "when": "In the afternoon!",
         "why": "To greet Kristoff!",
         "tag": "The little trolls rolling like rocks",
-        "image": "assets/scene_27.png"
+        "image": "scene_27.png"
     },
     {
         "emoji": "\ud83c\udf2c\ufe0f\ud83c\udf43\ud83c\udf42",
@@ -287,7 +287,7 @@ const scenes = [
         "when": "In the breezy afternoon!",
         "why": "To play a game!",
         "tag": "Gale the wind blowing leaves around",
-        "image": "assets/scene_28.png"
+        "image": "scene_28.png"
     },
     {
         "emoji": "\ud83d\udc34\ud83d\udca7\ud83c\udf0a",
@@ -297,7 +297,7 @@ const scenes = [
         "when": "At midnight!",
         "why": "To guard the river!",
         "tag": "The Water Nokk swimming fast",
-        "image": "assets/scene_29.png"
+        "image": "scene_29.png"
     },
     {
         "emoji": "\ud83d\udc69\ud83c\udffb\u26c4\ud83d\udef6",
@@ -307,7 +307,7 @@ const scenes = [
         "when": "In the daytime!",
         "why": "To escape the dark!",
         "tag": "Anna and Olaf sliding down the waterfall",
-        "image": "assets/scene_30.png"
+        "image": "scene_30.png"
     },
     {
         "emoji": "\ud83d\udc78\ud83c\udffc\ud83d\udc8e\u2744\ufe0f",
@@ -317,7 +317,7 @@ const scenes = [
         "when": "At night time!",
         "why": "To save Arendelle!",
         "tag": "Elsa finding the magic crystals",
-        "image": "assets/scene_31.png"
+        "image": "scene_31.png"
     },
     {
         "emoji": "\ud83d\udc71\u200d\u2642\ufe0f\ud83e\udd8c\ud83c\udf4e",
@@ -327,7 +327,7 @@ const scenes = [
         "when": "In the morning!",
         "why": "Because it is breakfast time!",
         "tag": "Kristoff and Sven sharing a red apple",
-        "image": "assets/scene_32.png"
+        "image": "scene_32.png"
     },
     {
         "emoji": "\ud83d\uded6\ud83e\uddd6\u200d\u2642\ufe0f\ud83d\udd25",
@@ -337,7 +337,7 @@ const scenes = [
         "when": "In the cold evening!",
         "why": "Because they are relaxing!",
         "tag": "Oaken's family saying 'hoo-hoo'",
-        "image": "assets/scene_33.png"
+        "image": "scene_33.png"
     },
     {
         "emoji": "\ud83e\udd8e\ud83d\udd25\ud83c\udfc3\u200d\u2642\ufe0f",
@@ -347,7 +347,7 @@ const scenes = [
         "when": "In the afternoon!",
         "why": "Because he is excited!",
         "tag": "Bruni running very fast",
-        "image": "assets/scene_34.png"
+        "image": "scene_34.png"
     },
     {
         "emoji": "\ud83e\udea8\ud83d\udc63\ud83d\udca5",
@@ -357,7 +357,7 @@ const scenes = [
         "when": "At sunset!",
         "why": "Because it is angry!",
         "tag": "An Earth Giant stomping its big feet",
-        "image": "assets/scene_35.png"
+        "image": "scene_35.png"
     },
     {
         "emoji": "\ud83d\udc78\ud83c\udffc\ud83d\udc34\u2728",
@@ -367,7 +367,7 @@ const scenes = [
         "when": "At sunrise!",
         "why": "To ride to Ahtohallan!",
         "tag": "Elsa turning the nokk to ice",
-        "image": "assets/scene_36.png"
+        "image": "scene_36.png"
     },
     {
         "emoji": "\ud83d\udc69\ud83c\udffb\ud83d\udc51\ud83c\udff0",
@@ -377,7 +377,7 @@ const scenes = [
         "when": "In the daytime!",
         "why": "Because she is the new Queen!",
         "tag": "Anna wearing a new crown",
-        "image": "assets/scene_37.png"
+        "image": "scene_37.png"
     },
     {
         "emoji": "\u26c4\u2744\ufe0f\ud83c\udf89",
@@ -387,7 +387,7 @@ const scenes = [
         "when": "In the afternoon!",
         "why": "To make the children smile!",
         "tag": "Olaf making a snow flurry",
-        "image": "assets/scene_38.png"
+        "image": "scene_38.png"
     },
     {
         "emoji": "\ud83d\udc82\u200d\u2642\ufe0f\ud83d\udcdc\ud83e\udd14",
@@ -397,7 +397,7 @@ const scenes = [
         "when": "In the morning!",
         "why": "To find the way home!",
         "tag": "Mattias looking at an old map",
-        "image": "assets/scene_39.png"
+        "image": "scene_39.png"
     },
     {
         "emoji": "\ud83d\udc78\ud83c\udffc\ud83d\udc69\ud83c\udffb\ud83d\udea2",
@@ -407,7 +407,7 @@ const scenes = [
         "when": "In the spooky evening!",
         "why": "To find clues!",
         "tag": "Elsa and Anna looking at a broken ship",
-        "image": "assets/scene_40.png"
+        "image": "scene_40.png"
     },
     {
         "emoji": "\ud83d\udc71\u200d\u2642\ufe0f\ud83d\udc8d\ud83d\ude05",
@@ -417,7 +417,7 @@ const scenes = [
         "when": "In the daytime!",
         "why": "Because he is nervous!",
         "tag": "Kristoff practicing his proposal",
-        "image": "assets/scene_41.png"
+        "image": "scene_41.png"
     },
     {
         "emoji": "\ud83e\udd8c\ud83d\udef7\u2744\ufe0f",
@@ -427,7 +427,7 @@ const scenes = [
         "when": "In the morning!",
         "why": "To help his friends travel!",
         "tag": "Sven pulling the heavy sled",
-        "image": "assets/scene_42.png"
+        "image": "scene_42.png"
     },
     {
         "emoji": "\ud83e\udd8e\u2744\ufe0f\ud83d\ude34",
@@ -437,7 +437,7 @@ const scenes = [
         "when": "At night time!",
         "why": "Because he is cold and safe!",
         "tag": "Bruni sleeping peacefully",
-        "image": "assets/scene_43.png"
+        "image": "scene_43.png"
     },
     {
         "emoji": "\ud83d\udc78\ud83c\udffc\ud83e\uddca\ud83d\udc0e",
@@ -447,7 +447,7 @@ const scenes = [
         "when": "In the bright morning!",
         "why": "To reach the magic river!",
         "tag": "Elsa galloping on the ice horse",
-        "image": "assets/scene_44.png"
+        "image": "scene_44.png"
     },
     {
         "emoji": "\ud83d\udc69\ud83c\udffb\ud83d\udde1\ufe0f\ud83e\udea8",
@@ -457,7 +457,7 @@ const scenes = [
         "when": "At twilight!",
         "why": "To get the giants' attention!",
         "tag": "Anna waving a sword",
-        "image": "assets/scene_45.png"
+        "image": "scene_45.png"
     },
     {
         "emoji": "\u26c4\ud83c\udf42\ud83c\udfc3\u200d\u2642\ufe0f",
@@ -467,7 +467,7 @@ const scenes = [
         "when": "In the windy afternoon!",
         "why": "Because Gale is tickling him!",
         "tag": "Olaf running away from the wind",
-        "image": "assets/scene_46.png"
+        "image": "scene_46.png"
     },
     {
         "emoji": "\ud83d\udc82\u200d\u2642\ufe0f\ud83d\udcf8\ud83d\ude32",
@@ -477,7 +477,7 @@ const scenes = [
         "when": "In the daytime!",
         "why": "Because he has never seen one!",
         "tag": "Mattias looking at a photograph",
-        "image": "assets/scene_47.png"
+        "image": "scene_47.png"
     },
     {
         "emoji": "\ud83d\udc78\ud83c\udffc\ud83d\udc69\ud83c\udffb\u26c4\ud83d\udc71\u200d\u2642\ufe0f\ud83e\udd8c",
@@ -487,7 +487,7 @@ const scenes = [
         "when": "In the sunny afternoon!",
         "why": "To celebrate being a family!",
         "tag": "Everyone together having a picnic",
-        "image": "assets/scene_48.png"
+        "image": "scene_48.png"
     },
     {
         "emoji": "\ud83d\udc51\ud83d\udc78\ud83c\udffc\ud83d\udc69\ud83c\udffb",
@@ -497,6 +497,6 @@ const scenes = [
         "when": "At night time!",
         "why": "To teach them about the forest!",
         "tag": "King Agnarr telling a bedtime story",
-        "image": "assets/scene_49.png"
+        "image": "scene_49.png"
     }
 ];
