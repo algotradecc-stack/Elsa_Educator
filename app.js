@@ -10,14 +10,14 @@ function loadScene() {
     imgElement.style.display = 'block';
     imgElement.src = scenes[currentScene].image;
     document.getElementById('scene-tag').innerText = 'Parent Hint: ' + scenes[currentScene].tag;
-    document.getElementById('answer-box').innerText = 'Look here at the picture! 🧐 Click a button!';
+    document.getElementById('answer-box').innerText = 'Look at this picture ' + (currentScene + 1) + ' and learn! 🧐 Click a button!';
     document.getElementById('view-count').innerText = viewCount;
 
     // Reset checkmarks and state
     const types = ['who', 'what', 'where', 'when', 'why', 'sentence'];
     types.forEach(type => {
         clickedState[type] = false;
-        document.querySelector(`#btn-${type} .tick`).innerText = '⬜';
+        document.querySelector('#btn-' + type + ' .tick').innerText = '⬜';
     });
 
     // Disable Next button
@@ -31,7 +31,7 @@ function showAnswer(questionType) {
 
     // Mark as checked
     clickedState[questionType] = true;
-    document.querySelector(`#btn-${questionType} .tick`).innerText = '✅';
+    document.querySelector('#btn-' + questionType + ' .tick').innerText = '✅';
 
     // Check if all are clicked to unlock Next button
     const allClicked = Object.values(clickedState).every(val => val === true);
