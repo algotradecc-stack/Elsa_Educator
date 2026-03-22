@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frozen 2 English Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>❄️ Frozen 2 Picture Explorer ❄️</h1>
+    <div id="progress">Pictures explored today: <span id="view-count">1</span> 🌟</div>
+
+    <div id="scene-container">
+        <div id="emoji-art">👸🏼🐴🌊</div>
+    </div>
+
+    <div id="answer-box">Look *here* at the picture! 🧐 Click a button!</div>
+
+    <div class="controls">
+        <button class="btn btn-who" onclick="showAnswer('who')">Who?</button>
+        <button class="btn btn-what" onclick="showAnswer('what')">What?</button>
+        <button class="btn btn-where" onclick="showAnswer('where')">Where?</button>
+        <button class="btn btn-when" onclick="showAnswer('when')">When?</button>
+        <button class="btn btn-why" onclick="showAnswer('why')">Why?</button>
+    </div>
+
+    <div class="nav-controls">
+        <button class="btn btn-nav" onclick="nextScene()">Random Picture 🎲➡️</button>
+    </div>
+
+    <script src="scenarios.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
