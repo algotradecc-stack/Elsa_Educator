@@ -4,6 +4,25 @@ let clickedState = {
     who: false, what: false, where: false, when: false, why: false, sentence: false
 };
 
+// Create a shuffled list of all scene indices so every scene appears once per round
+let shuffledQueue = [];
+
+function shuffleArray(arr) {
+    for (let i = arr.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
+}
+
+function getNextScene() {
+    // If the queue is empty, refill and reshuffle for the next round
+    if (shuffledQueue.length === 0) {
+        shuffledQueue = shuffleArray([...Array(scenes.length).keys()]);
+    }
+    return shuffledQueue.pop();
+}
+
 function loadScene() {
     document.getElementById('emoji-fallback').innerText = scenes[currentScene].emoji;
     const imgElement = document.getElementById('scene-image');
@@ -29,11 +48,9 @@ function loadScene() {
 function showAnswer(questionType) {
     document.getElementById('answer-box').innerHTML = scenes[currentScene][questionType];
 
-    // Mark as checked
     clickedState[questionType] = true;
     document.querySelector('#btn-' + questionType + ' .tick').innerText = '✅';
 
-    // Check if all are clicked to unlock Next button
     const allClicked = Object.values(clickedState).every(val => val === true);
     if (allClicked) {
         const nextBtn = document.getElementById('next-btn');
@@ -44,12 +61,14 @@ function showAnswer(questionType) {
 
 function nextScene() {
     if (document.getElementById('next-btn').disabled) return;
-    currentScene = Math.floor(Math.random() * scenes.length);
+    currentScene = getNextScene();
     viewCount++;
     loadScene();
 }
 
 window.onload = function() {
-    currentScene = Math.floor(Math.random() * scenes.length);
+    // Fill and shuffle on first load
+    shuffledQueue = shuffleArray([...Array(scenes.length).keys()]);
+    currentScene = shuffledQueue.pop();
     loadScene();
 };
