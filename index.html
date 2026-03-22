@@ -27,7 +27,6 @@
             image-rendering: pixelated;
             position: absolute;
             z-index: 2;
-            /* Hide the broken image icon if image doesn't exist */
             color: transparent;
         }
     </style>
@@ -35,7 +34,6 @@
 <body>
     <h1>❄️ Frozen 2 Picture Explorer ❄️</h1>
     <div id="progress">Pictures explored today: <span id="view-count">1</span> 🌟</div>
-
     <div id="scene-tag" style="font-size: 18px; color: #00838f; font-weight: bold; margin-bottom: 10px;"></div>
 
     <div id="scene-container">
@@ -43,18 +41,19 @@
         <img id="scene-image" src="scene_0.png" alt="" onerror="this.style.display='none'">
     </div>
 
-    <div id="answer-box">Look *here* at the picture! 🧐 Click a button!</div>
+    <div id="answer-box">Look here at the picture! 🧐 Click a button!</div>
 
     <div class="controls">
-        <button class="btn btn-who" onclick="showAnswer('who')">Who?</button>
-        <button class="btn btn-what" onclick="showAnswer('what')">What?</button>
-        <button class="btn btn-where" onclick="showAnswer('where')">Where?</button>
-        <button class="btn btn-when" onclick="showAnswer('when')">When?</button>
-        <button class="btn btn-why" onclick="showAnswer('why')">Why?</button>
+        <button class="btn btn-who" id="btn-who" onclick="showAnswer('who')"><span class="tick">⬜</span> Who?</button>
+        <button class="btn btn-what" id="btn-what" onclick="showAnswer('what')"><span class="tick">⬜</span> What?</button>
+        <button class="btn btn-where" id="btn-where" onclick="showAnswer('where')"><span class="tick">⬜</span> Where?</button>
+        <button class="btn btn-when" id="btn-when" onclick="showAnswer('when')"><span class="tick">⬜</span> When?</button>
+        <button class="btn btn-why" id="btn-why" onclick="showAnswer('why')"><span class="tick">⬜</span> Why?</button>
+        <button class="btn btn-sentence" id="btn-sentence" onclick="showAnswer('sentence')"><span class="tick">⬜</span> Sentence</button>
     </div>
 
     <div class="nav-controls">
-        <button class="btn btn-nav" onclick="nextScene()">Random Picture 🎲➡️</button>
+        <button class="btn btn-nav" id="next-btn" onclick="nextScene()" disabled>Next</button>
     </div>
 
     <script src="scenarios.js"></script>

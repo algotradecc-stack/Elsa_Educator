@@ -1,502 +1,552 @@
 const scenes = [
     {
-        "emoji": "\ud83d\udc78\ud83c\udffc\ud83d\udc34\ud83c\udf0a",
+        "emoji": "👸🏼🐴🌊",
         "who": "Elsa and the Water Nokk",
         "what": "Riding the magic water horse!",
         "where": "Over *there* in the Dark Sea!",
         "when": "At night time!",
         "why": "To find the truth!",
         "tag": "Elsa and the Water Nokk riding the magic water horse",
-        "image": "scene_0.png"
+        "image": "scene_0.png",
+        "sentence": "Elsa and the Water Nokk are riding the magic water horse over there in the dark sea at night time."
     },
     {
-        "emoji": "\ud83d\udc69\ud83c\udffb\u26c4\ud83c\udf42",
+        "emoji": "👩🏻⛄🍂",
         "who": "Anna and Olaf",
         "what": "Walking and playing!",
         "where": "Right *here* in the Enchanted Forest!",
         "when": "In the morning!",
         "why": "Because they are exploring!",
         "tag": "Anna and Olaf walking and playing",
-        "image": "scene_1.png"
+        "image": "scene_1.png",
+        "sentence": "Anna and Olaf are walking and playing right here in the enchanted forest in the morning."
     },
     {
-        "emoji": "\ud83d\udc71\u200d\u2642\ufe0f\ud83e\udd8c\ud83c\udf32",
+        "emoji": "👱‍♂️🦌🌲",
         "who": "Kristoff and Sven",
         "what": "Singing a song!",
         "where": "Deep *there* in the woods!",
         "when": "In the evening!",
         "why": "Because Kristoff feels sad!",
         "tag": "Kristoff and Sven singing a song",
-        "image": "scene_2.png"
+        "image": "scene_2.png",
+        "sentence": "Kristoff and Sven are singing a song deep there in the woods in the evening."
     },
     {
-        "emoji": "\ud83d\udc78\ud83c\udffc\ud83e\udd8e\ud83d\udd25",
+        "emoji": "👸🏼🦎🔥",
         "who": "Elsa and Bruni",
         "what": "Making ice magic!",
         "where": "Right *here* in the forest!",
         "when": "In the afternoon!",
         "why": "To calm the fire spirit!",
         "tag": "Elsa and Bruni making ice magic",
-        "image": "scene_3.png"
+        "image": "scene_3.png",
+        "sentence": "Elsa and Bruni are making ice magic right here in the forest in the afternoon."
     },
     {
-        "emoji": "\ud83d\udc78\ud83c\udffc\ud83d\udc69\ud83c\udffb\ud83c\udff0",
+        "emoji": "👸🏼👩🏻🏰",
         "who": "Elsa and Anna",
         "what": "Opening the gates!",
         "where": "Right *here* at the castle!",
         "when": "In the morning!",
         "why": "To let the people in!",
         "tag": "Elsa and Anna opening the gates",
-        "image": "scene_4.png"
+        "image": "scene_4.png",
+        "sentence": "Elsa and Anna are opening the gates right here at the castle in the morning."
     },
     {
-        "emoji": "\u26c4\ud83c\udf43\ud83c\udf42",
+        "emoji": "⛄🍃🍂",
         "who": "Olaf and Gale",
         "what": "Flying in the wind!",
         "where": "Up *there* in the sky!",
         "when": "In the afternoon!",
         "why": "Because the wind is playing!",
         "tag": "Olaf and Gale flying in the wind",
-        "image": "scene_5.png"
+        "image": "scene_5.png",
+        "sentence": "Olaf and Gale are flying in the wind up there in the sky in the afternoon."
     },
     {
-        "emoji": "\ud83e\udea8\ud83c\udf32\ud83c\udf33",
+        "emoji": "🪨🌲🌳",
         "who": "The Earth Giants",
         "what": "Sleeping by the river!",
         "where": "Down *there* in the valley!",
         "when": "At night time!",
         "why": "Because they are tired!",
         "tag": "The Earth Giants sleeping by the river",
-        "image": "scene_6.png"
+        "image": "scene_6.png",
+        "sentence": "The Earth Giants are sleeping by the river down there in the valley at night time."
     },
     {
-        "emoji": "\ud83d\udc82\u200d\u2642\ufe0f\ud83d\udee1\ufe0f\ud83c\udf32",
+        "emoji": "💂‍♂️🛡️🌲",
         "who": "Lieutenant Mattias",
         "what": "Guarding the forest!",
         "where": "Right *here* in the trees!",
         "when": "In the daytime!",
         "why": "To protect his people!",
         "tag": "Lieutenant Mattias guarding the forest",
-        "image": "scene_7.png"
+        "image": "scene_7.png",
+        "sentence": "Lieutenant Mattias are guarding the forest right here in the trees in the daytime."
     },
     {
-        "emoji": "\ud83d\udc51\ud83d\udc78\ud83c\udffc\ud83d\udecf\ufe0f",
+        "emoji": "👑👸🏼🛏️",
         "who": "Queen Iduna and little Elsa",
         "what": "Singing a lullaby!",
         "where": "Right *here* in the bedroom!",
         "when": "At bedtime!",
         "why": "To help Elsa sleep!",
         "tag": "Queen Iduna and little Elsa singing a lullaby",
-        "image": "scene_8.png"
+        "image": "scene_8.png",
+        "sentence": "Queen Iduna and little Elsa are singing a lullaby right here in the bedroom at bedtime."
     },
     {
-        "emoji": "\ud83e\uddcc\ud83d\udd2e\u26f0\ufe0f",
+        "emoji": "🧌🔮⛰️",
         "who": "Grand Pabbie",
         "what": "Showing magic visions!",
         "where": "Over *there* in the troll valley!",
         "when": "At night time!",
         "why": "To warn the sisters!",
         "tag": "Grand Pabbie showing magic visions",
-        "image": "scene_9.png"
+        "image": "scene_9.png",
+        "sentence": "Grand Pabbie are showing magic visions over there in the troll valley at night time."
     },
     {
-        "emoji": "\ud83d\udc78\ud83c\udffc\u2744\ufe0f\ud83c\udfd4\ufe0f",
+        "emoji": "👸🏼❄️🏔️",
         "who": "Elsa",
         "what": "Building an ice palace!",
         "where": "High up *there* on the mountain!",
         "when": "At sunrise!",
         "why": "To be free!",
         "tag": "Elsa building an ice palace",
-        "image": "scene_10.png"
+        "image": "scene_10.png",
+        "sentence": "Elsa are building an ice palace high up there on the mountain at sunrise."
     },
     {
-        "emoji": "\ud83d\udc69\ud83c\udffb\ud83d\udc71\u200d\u2642\ufe0f\ud83d\udef6",
+        "emoji": "👩🏻👱‍♂️🛶",
         "who": "Anna and Kristoff",
         "what": "Riding in a boat!",
         "where": "Right *here* on the river!",
         "when": "In the daytime!",
         "why": "To find Elsa!",
         "tag": "Anna and Kristoff riding in a boat",
-        "image": "scene_11.png"
+        "image": "scene_11.png",
+        "sentence": "Anna and Kristoff are riding in a boat right here on the river in the daytime."
     },
     {
-        "emoji": "\ud83e\udd8c\ud83e\udd55\u2744\ufe0f",
+        "emoji": "🦌🥕❄️",
         "who": "Sven",
         "what": "Eating a crunchy carrot!",
         "where": "Right *here* in the snow!",
         "when": "In the morning!",
         "why": "Because he is hungry!",
         "tag": "Sven eating a crunchy carrot",
-        "image": "scene_12.png"
+        "image": "scene_12.png",
+        "sentence": "Sven are eating a crunchy carrot right here in the snow in the morning."
     },
     {
-        "emoji": "\ud83d\uded6\ud83e\udde4\ud83e\udde3",
+        "emoji": "🛖🧤🧣",
         "who": "Oaken",
         "what": "Selling winter clothes!",
         "where": "Right *here* in his shop!",
         "when": "In the afternoon!",
         "why": "To help travelers!",
         "tag": "Oaken selling winter clothes",
-        "image": "scene_13.png"
+        "image": "scene_13.png",
+        "sentence": "Oaken are selling winter clothes right here in his shop in the afternoon."
     },
     {
-        "emoji": "\u26c4\ud83c\udf3b\u2600\ufe0f",
+        "emoji": "⛄🌻☀️",
         "who": "Olaf",
         "what": "Singing about summer!",
         "where": "Right *here* in the meadow!",
         "when": "In the hot daytime!",
         "why": "Because he loves the sun!",
         "tag": "Olaf singing about summer",
-        "image": "scene_14.png"
+        "image": "scene_14.png",
+        "sentence": "Olaf are singing about summer right here in the meadow in the hot daytime."
     },
     {
-        "emoji": "\ud83d\udc78\ud83c\udffc\u2744\ufe0f\ud83c\udf0a",
+        "emoji": "👸🏼❄️🌊",
         "who": "Elsa",
         "what": "Freezing the big waves!",
         "where": "Over *there* at the beach!",
         "when": "At stormy night!",
         "why": "To cross the sea!",
         "tag": "Elsa freezing the big waves",
-        "image": "scene_15.png"
+        "image": "scene_15.png",
+        "sentence": "Elsa are freezing the big waves over there at the beach at stormy night."
     },
     {
-        "emoji": "\ud83d\udc69\ud83c\udffb\ud83e\udea8\ud83c\udfc3\u200d\u2640\ufe0f",
+        "emoji": "👩🏻🪨🏃‍♀️",
         "who": "Anna",
         "what": "Running away from giants!",
         "where": "Down *there* near the dam!",
         "when": "In the morning!",
         "why": "To break the dam!",
         "tag": "Anna running away from giants",
-        "image": "scene_16.png"
+        "image": "scene_16.png",
+        "sentence": "Anna are running away from giants down there near the dam in the morning."
     },
     {
-        "emoji": "\ud83d\udc71\u200d\u2642\ufe0f\ud83d\udc8d\ud83e\udd8c",
+        "emoji": "👱‍♂️💍🦌",
         "who": "Kristoff",
         "what": "Holding a shiny ring!",
         "where": "Right *here* in the woods!",
         "when": "At sunset!",
         "why": "To marry Anna!",
         "tag": "Kristoff holding a shiny ring",
-        "image": "scene_17.png"
+        "image": "scene_17.png",
+        "sentence": "Kristoff are holding a shiny ring right here in the woods at sunset."
     },
     {
-        "emoji": "\ud83e\udd8e\u2744\ufe0f\ud83d\udc45",
+        "emoji": "🦎❄️👅",
         "who": "Bruni",
         "what": "Catching snowflakes!",
         "where": "Right *here* on the branch!",
         "when": "In the winter morning!",
         "why": "Because it tastes yummy!",
         "tag": "Bruni catching snowflakes",
-        "image": "scene_18.png"
+        "image": "scene_18.png",
+        "sentence": "Bruni are catching snowflakes right here on the branch in the winter morning."
     },
     {
-        "emoji": "\ud83d\udc78\ud83c\udffc\ud83c\udfa4\ud83c\udfd4\ufe0f",
+        "emoji": "👸🏼🎤🏔️",
         "who": "Elsa",
         "what": "Singing loudly!",
         "where": "Right *here* on the castle balcony!",
         "when": "At midnight!",
         "why": "Because she hears a voice!",
         "tag": "Elsa singing loudly",
-        "image": "scene_19.png"
+        "image": "scene_19.png",
+        "sentence": "Elsa are singing loudly right here on the castle balcony at midnight."
     },
     {
-        "emoji": "\ud83d\udc69\ud83c\udffb\ud83d\udc0e\ud83c\udf32",
+        "emoji": "👩🏻🐎🌲",
         "who": "Anna",
         "what": "Riding a fast horse!",
         "where": "Over *there* through the trees!",
         "when": "In the daytime!",
         "why": "To catch up with Elsa!",
         "tag": "Anna riding a fast horse",
-        "image": "scene_20.png"
+        "image": "scene_20.png",
+        "sentence": "Anna are riding a fast horse over there through the trees in the daytime."
     },
     {
-        "emoji": "\u26c4\ud83d\udcda\ud83e\udd13",
+        "emoji": "⛄📚🤓",
         "who": "Olaf",
         "what": "Reading a big book!",
         "where": "Right *here* in the library!",
         "when": "In the afternoon!",
         "why": "To learn new things!",
         "tag": "Olaf reading a big book",
-        "image": "scene_21.png"
+        "image": "scene_21.png",
+        "sentence": "Olaf are reading a big book right here in the library in the afternoon."
     },
     {
-        "emoji": "\ud83d\udc78\ud83c\udffc\ud83d\udc57\u2744\ufe0f",
+        "emoji": "👸🏼👗❄️",
         "who": "Elsa",
         "what": "Making a new ice dress!",
         "where": "Up *there* on the balcony!",
         "when": "At sunrise!",
         "why": "Because she feels happy!",
         "tag": "Elsa making a new ice dress",
-        "image": "scene_22.png"
+        "image": "scene_22.png",
+        "sentence": "Elsa are making a new ice dress up there on the balcony at sunrise."
     },
     {
-        "emoji": "\ud83d\udc71\u200d\u2642\ufe0f\ud83e\ude95\ud83c\udfb6",
+        "emoji": "👱‍♂️🪕🎶",
         "who": "Kristoff",
         "what": "Playing his guitar!",
         "where": "Right *here* on the wagon!",
         "when": "At night time!",
         "why": "To entertain Sven!",
         "tag": "Kristoff playing his guitar",
-        "image": "scene_23.png"
+        "image": "scene_23.png",
+        "sentence": "Kristoff are playing his guitar right here on the wagon at night time."
     },
     {
-        "emoji": "\ud83e\udd8c\ud83d\udc45\ud83e\uddca",
+        "emoji": "🦌👅🧊",
         "who": "Sven",
         "what": "Licking a cold icicle!",
         "where": "Over *there* on the roof!",
         "when": "In the cold morning!",
         "why": "Because he is silly!",
         "tag": "Sven licking a cold icicle",
-        "image": "scene_24.png"
+        "image": "scene_24.png",
+        "sentence": "Sven are licking a cold icicle over there on the roof in the cold morning."
     },
     {
-        "emoji": "\ud83d\udc82\u200d\u2642\ufe0f\ud83c\udf42\ud83c\udfd5\ufe0f",
+        "emoji": "💂‍♂️🍂🏕️",
         "who": "Mattias and soldiers",
         "what": "Sitting by the fire!",
         "where": "Right *here* in the camp!",
         "when": "At night time!",
         "why": "To stay warm!",
         "tag": "Mattias and soldiers sitting by the fire",
-        "image": "scene_25.png"
+        "image": "scene_25.png",
+        "sentence": "Mattias and soldiers are sitting by the fire right here in the camp at night time."
     },
     {
-        "emoji": "\ud83d\udc78\ud83c\udffc\ud83d\udc69\ud83c\udffb\ud83e\udd1d",
+        "emoji": "👸🏼👩🏻🤝",
         "who": "Elsa and Anna",
         "what": "Holding hands!",
         "where": "Right *here* in the courtyard!",
         "when": "In the sunny morning!",
         "why": "Because they love each other!",
         "tag": "Elsa and Anna holding hands",
-        "image": "scene_26.png"
+        "image": "scene_26.png",
+        "sentence": "Elsa and Anna are holding hands right here in the courtyard in the sunny morning."
     },
     {
-        "emoji": "\ud83e\uddcc\ud83c\udf3f\ud83c\udf44",
+        "emoji": "🧌🌿🍄",
         "who": "The little trolls",
         "what": "Rolling like rocks!",
         "where": "Down *there* in the valley!",
         "when": "In the afternoon!",
         "why": "To greet Kristoff!",
         "tag": "The little trolls rolling like rocks",
-        "image": "scene_27.png"
+        "image": "scene_27.png",
+        "sentence": "The little trolls are rolling like rocks down there in the valley in the afternoon."
     },
     {
-        "emoji": "\ud83c\udf2c\ufe0f\ud83c\udf43\ud83c\udf42",
+        "emoji": "🌬️🍃🍂",
         "who": "Gale the wind",
         "what": "Blowing leaves around!",
         "where": "Up *there* in the air!",
         "when": "In the breezy afternoon!",
         "why": "To play a game!",
         "tag": "Gale the wind blowing leaves around",
-        "image": "scene_28.png"
+        "image": "scene_28.png",
+        "sentence": "Gale the wind are blowing leaves around up there in the air in the breezy afternoon."
     },
     {
-        "emoji": "\ud83d\udc34\ud83d\udca7\ud83c\udf0a",
+        "emoji": "🐴💧🌊",
         "who": "The Water Nokk",
         "what": "Swimming fast!",
         "where": "Deep *there* under the water!",
         "when": "At midnight!",
         "why": "To guard the river!",
         "tag": "The Water Nokk swimming fast",
-        "image": "scene_29.png"
+        "image": "scene_29.png",
+        "sentence": "The Water Nokk are swimming fast deep there under the water at midnight."
     },
     {
-        "emoji": "\ud83d\udc69\ud83c\udffb\u26c4\ud83d\udef6",
+        "emoji": "👩🏻⛄🛶",
         "who": "Anna and Olaf",
         "what": "Sliding down the waterfall!",
         "where": "Over *there* in the ice cave!",
         "when": "In the daytime!",
         "why": "To escape the dark!",
         "tag": "Anna and Olaf sliding down the waterfall",
-        "image": "scene_30.png"
+        "image": "scene_30.png",
+        "sentence": "Anna and Olaf are sliding down the waterfall over there in the ice cave in the daytime."
     },
     {
-        "emoji": "\ud83d\udc78\ud83c\udffc\ud83d\udc8e\u2744\ufe0f",
+        "emoji": "👸🏼💎❄️",
         "who": "Elsa",
         "what": "Finding the magic crystals!",
         "where": "Right *here* in the sky!",
         "when": "At night time!",
         "why": "To save Arendelle!",
         "tag": "Elsa finding the magic crystals",
-        "image": "scene_31.png"
+        "image": "scene_31.png",
+        "sentence": "Elsa are finding the magic crystals right here in the sky at night time."
     },
     {
-        "emoji": "\ud83d\udc71\u200d\u2642\ufe0f\ud83e\udd8c\ud83c\udf4e",
+        "emoji": "👱‍♂️🦌🍎",
         "who": "Kristoff and Sven",
         "what": "Sharing a red apple!",
         "where": "Right *here* in the barn!",
         "when": "In the morning!",
         "why": "Because it is breakfast time!",
         "tag": "Kristoff and Sven sharing a red apple",
-        "image": "scene_32.png"
+        "image": "scene_32.png",
+        "sentence": "Kristoff and Sven are sharing a red apple right here in the barn in the morning."
     },
     {
-        "emoji": "\ud83d\uded6\ud83e\uddd6\u200d\u2642\ufe0f\ud83d\udd25",
+        "emoji": "🛖🧖‍♂️🔥",
         "who": "Oaken's family",
         "what": "Saying 'Hoo-hoo'!",
         "where": "Right *here* in the hot sauna!",
         "when": "In the cold evening!",
         "why": "Because they are relaxing!",
         "tag": "Oaken's family saying 'hoo-hoo'",
-        "image": "scene_33.png"
+        "image": "scene_33.png",
+        "sentence": "Oaken's family are saying 'hoo-hoo' right here in the hot sauna in the cold evening."
     },
     {
-        "emoji": "\ud83e\udd8e\ud83d\udd25\ud83c\udfc3\u200d\u2642\ufe0f",
+        "emoji": "🦎🔥🏃‍♂️",
         "who": "Bruni",
         "what": "Running very fast!",
         "where": "Over *there* on the rocks!",
         "when": "In the afternoon!",
         "why": "Because he is excited!",
         "tag": "Bruni running very fast",
-        "image": "scene_34.png"
+        "image": "scene_34.png",
+        "sentence": "Bruni are running very fast over there on the rocks in the afternoon."
     },
     {
-        "emoji": "\ud83e\udea8\ud83d\udc63\ud83d\udca5",
+        "emoji": "🪨👣💥",
         "who": "An Earth Giant",
         "what": "Stomping its big feet!",
         "where": "Over *there* by the river!",
         "when": "At sunset!",
         "why": "Because it is angry!",
         "tag": "An Earth Giant stomping its big feet",
-        "image": "scene_35.png"
+        "image": "scene_35.png",
+        "sentence": "An Earth Giant are stomping its big feet over there by the river at sunset."
     },
     {
-        "emoji": "\ud83d\udc78\ud83c\udffc\ud83d\udc34\u2728",
+        "emoji": "👸🏼🐴✨",
         "who": "Elsa",
         "what": "Turning the Nokk to ice!",
         "where": "Over *there* on the water!",
         "when": "At sunrise!",
         "why": "To ride to Ahtohallan!",
         "tag": "Elsa turning the nokk to ice",
-        "image": "scene_36.png"
+        "image": "scene_36.png",
+        "sentence": "Elsa are turning the nokk to ice over there on the water at sunrise."
     },
     {
-        "emoji": "\ud83d\udc69\ud83c\udffb\ud83d\udc51\ud83c\udff0",
+        "emoji": "👩🏻👑🏰",
         "who": "Anna",
         "what": "Wearing a new crown!",
         "where": "Right *here* in the castle!",
         "when": "In the daytime!",
         "why": "Because she is the new Queen!",
         "tag": "Anna wearing a new crown",
-        "image": "scene_37.png"
+        "image": "scene_37.png",
+        "sentence": "Anna are wearing a new crown right here in the castle in the daytime."
     },
     {
-        "emoji": "\u26c4\u2744\ufe0f\ud83c\udf89",
+        "emoji": "⛄❄️🎉",
         "who": "Olaf",
         "what": "Making a snow flurry!",
         "where": "Right *here* in the town square!",
         "when": "In the afternoon!",
         "why": "To make the children smile!",
         "tag": "Olaf making a snow flurry",
-        "image": "scene_38.png"
+        "image": "scene_38.png",
+        "sentence": "Olaf are making a snow flurry right here in the town square in the afternoon."
     },
     {
-        "emoji": "\ud83d\udc82\u200d\u2642\ufe0f\ud83d\udcdc\ud83e\udd14",
+        "emoji": "💂‍♂️📜🤔",
         "who": "Mattias",
         "what": "Looking at an old map!",
         "where": "Right *here* in the tent!",
         "when": "In the morning!",
         "why": "To find the way home!",
         "tag": "Mattias looking at an old map",
-        "image": "scene_39.png"
+        "image": "scene_39.png",
+        "sentence": "Mattias are looking at an old map right here in the tent in the morning."
     },
     {
-        "emoji": "\ud83d\udc78\ud83c\udffc\ud83d\udc69\ud83c\udffb\ud83d\udea2",
+        "emoji": "👸🏼👩🏻🚢",
         "who": "Elsa and Anna",
         "what": "Looking at a broken ship!",
         "where": "Over *there* in the foggy woods!",
         "when": "In the spooky evening!",
         "why": "To find clues!",
         "tag": "Elsa and Anna looking at a broken ship",
-        "image": "scene_40.png"
+        "image": "scene_40.png",
+        "sentence": "Elsa and Anna are looking at a broken ship over there in the foggy woods in the spooky evening."
     },
     {
-        "emoji": "\ud83d\udc71\u200d\u2642\ufe0f\ud83d\udc8d\ud83d\ude05",
+        "emoji": "👱‍♂️💍😅",
         "who": "Kristoff",
         "what": "Practicing his proposal!",
         "where": "Right *here* behind a tree!",
         "when": "In the daytime!",
         "why": "Because he is nervous!",
         "tag": "Kristoff practicing his proposal",
-        "image": "scene_41.png"
+        "image": "scene_41.png",
+        "sentence": "Kristoff are practicing his proposal right here behind a tree in the daytime."
     },
     {
-        "emoji": "\ud83e\udd8c\ud83d\udef7\u2744\ufe0f",
+        "emoji": "🦌🛷❄️",
         "who": "Sven",
         "what": "Pulling the heavy sled!",
         "where": "Over *there* on the snowy path!",
         "when": "In the morning!",
         "why": "To help his friends travel!",
         "tag": "Sven pulling the heavy sled",
-        "image": "scene_42.png"
+        "image": "scene_42.png",
+        "sentence": "Sven are pulling the heavy sled over there on the snowy path in the morning."
     },
     {
-        "emoji": "\ud83e\udd8e\u2744\ufe0f\ud83d\ude34",
+        "emoji": "🦎❄️😴",
         "who": "Bruni",
         "what": "Sleeping peacefully!",
         "where": "Right *here* in Elsa's hands!",
         "when": "At night time!",
         "why": "Because he is cold and safe!",
         "tag": "Bruni sleeping peacefully",
-        "image": "scene_43.png"
+        "image": "scene_43.png",
+        "sentence": "Bruni are sleeping peacefully right here in elsa's hands at night time."
     },
     {
-        "emoji": "\ud83d\udc78\ud83c\udffc\ud83e\uddca\ud83d\udc0e",
+        "emoji": "👸🏼🧊🐎",
         "who": "Elsa",
         "what": "Galloping on the ice horse!",
         "where": "Over *there* towards the glacier!",
         "when": "In the bright morning!",
         "why": "To reach the magic river!",
         "tag": "Elsa galloping on the ice horse",
-        "image": "scene_44.png"
+        "image": "scene_44.png",
+        "sentence": "Elsa are galloping on the ice horse over there towards the glacier in the bright morning."
     },
     {
-        "emoji": "\ud83d\udc69\ud83c\udffb\ud83d\udde1\ufe0f\ud83e\udea8",
+        "emoji": "👩🏻🗡️🪨",
         "who": "Anna",
         "what": "Waving a sword!",
         "where": "Down *there* by the rocky shore!",
         "when": "At twilight!",
         "why": "To get the giants' attention!",
         "tag": "Anna waving a sword",
-        "image": "scene_45.png"
+        "image": "scene_45.png",
+        "sentence": "Anna are waving a sword down there by the rocky shore at twilight."
     },
     {
-        "emoji": "\u26c4\ud83c\udf42\ud83c\udfc3\u200d\u2642\ufe0f",
+        "emoji": "⛄🍂🏃‍♂️",
         "who": "Olaf",
         "what": "Running away from the wind!",
         "where": "Right *here* in the clearing!",
         "when": "In the windy afternoon!",
         "why": "Because Gale is tickling him!",
         "tag": "Olaf running away from the wind",
-        "image": "scene_46.png"
+        "image": "scene_46.png",
+        "sentence": "Olaf are running away from the wind right here in the clearing in the windy afternoon."
     },
     {
-        "emoji": "\ud83d\udc82\u200d\u2642\ufe0f\ud83d\udcf8\ud83d\ude32",
+        "emoji": "💂‍♂️📸😲",
         "who": "Mattias",
         "what": "Looking at a photograph!",
         "where": "Right *here* in the forest!",
         "when": "In the daytime!",
         "why": "Because he has never seen one!",
         "tag": "Mattias looking at a photograph",
-        "image": "scene_47.png"
+        "image": "scene_47.png",
+        "sentence": "Mattias are looking at a photograph right here in the forest in the daytime."
     },
     {
-        "emoji": "\ud83d\udc78\ud83c\udffc\ud83d\udc69\ud83c\udffb\u26c4\ud83d\udc71\u200d\u2642\ufe0f\ud83e\udd8c",
+        "emoji": "👸🏼👩🏻⛄👱‍♂️🦌",
         "who": "Everyone together",
         "what": "Having a picnic!",
         "where": "Right *here* on the blanket!",
         "when": "In the sunny afternoon!",
         "why": "To celebrate being a family!",
         "tag": "Everyone together having a picnic",
-        "image": "scene_48.png"
+        "image": "scene_48.png",
+        "sentence": "Everyone together are having a picnic right here on the blanket in the sunny afternoon."
     },
     {
-        "emoji": "\ud83d\udc51\ud83d\udc78\ud83c\udffc\ud83d\udc69\ud83c\udffb",
+        "emoji": "👑👸🏼👩🏻",
         "who": "King Agnarr",
         "what": "Telling a bedtime story!",
         "where": "Right *here* in the girls' room!",
         "when": "At night time!",
         "why": "To teach them about the forest!",
         "tag": "King Agnarr telling a bedtime story",
-        "image": "scene_49.png"
+        "image": "scene_49.png",
+        "sentence": "King Agnarr are telling a bedtime story right here in the girls' room at night time."
     }
 ];
