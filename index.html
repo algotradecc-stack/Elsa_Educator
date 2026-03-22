@@ -5,13 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frozen 2 English Explorer</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        #scene-container {
+            padding: 0;
+            overflow: hidden;
+        }
+    </style>
 </head>
 <body>
     <h1>❄️ Frozen 2 Picture Explorer ❄️</h1>
     <div id="progress">Pictures explored today: <span id="view-count">1</span> 🌟</div>
 
+    <div id="scene-tag" style="font-size: 18px; color: #00838f; font-weight: bold; margin-bottom: 10px;"></div>
+
     <div id="scene-container">
-        <div id="emoji-art">👸🏼🐴🌊</div>
+        <img id="scene-image" src="assets/scene_0.png" alt="Frozen 2 Scene" style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px; image-rendering: pixelated;">
     </div>
 
     <div id="answer-box">Look *here* at the picture! 🧐 Click a button!</div>
